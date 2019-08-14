@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= I18n.t('title') %></title>
+    <%= csrf_meta_tags %>
+    <%= javascript_pack_tag 'deals-bundle' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
